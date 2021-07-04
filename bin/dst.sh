@@ -1,4 +1,6 @@
 echo "running day start script"
 
-git pull
+
+git fetch --all
+git pull --all
 git push
